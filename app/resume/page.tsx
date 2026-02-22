@@ -15,7 +15,7 @@ export default function ResumePage() {
     phone: "+63 906 888 1801",
     github: "github.com/yoflopfosho",
     linkedin: "https://www.linkedin.com/in/christian-noel-a59b0b323/",
-    website: "https://yourportfolio.com",
+    website: "https://christiannoel-portfolio.vercel.app",
     facebook: "facebook.com/yoflopfosho",
     instagram: "instagram.com/chrstnjhnnl",
     summary: "Front-end Developer specializing in React and Next.js with hands-on experience building responsive web applications. Currently completing BS Information Technology at STI College. Passionate about creating intuitive user interfaces and solving complex problems through clean, efficient code.",
@@ -38,7 +38,7 @@ export default function ResumePage() {
           "Interactive 3D virtual tour for the customers/guests",
           "Real-time availability rooms"
         ],
-        liveUrl: "http://charkoolbeachresort.com",
+        liveUrl: "http://charkoolresort.com",
         githubUrl: "https://github.com/yoflopfosho/charkool-beach-resort"
       },
       {
@@ -51,7 +51,7 @@ export default function ResumePage() {
           "Dynamic profile image hover effects",
           "Mobile-first approach with optimized performance"
         ],
-        liveUrl: "https://your-portfolio.com",
+        liveUrl: "https://christiannoel-portfolio.vercel.app/resume",
         githubUrl: "https://github.com/yoflopfosho/portfolio"
       }
     ],
@@ -112,7 +112,7 @@ export default function ResumePage() {
                 className="absolute inset-0 w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
               />
               <img 
-                src="/images/profile-hover.jpg"
+                src="/images/profile-hover2.png"
                 alt="Christian John F. Noel Hover" 
                 className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
               />
@@ -267,7 +267,7 @@ export default function ResumePage() {
                                 ? 'hover:bg-gray-600 text-gray-400 hover:text-white' 
                                 : 'hover:bg-gray-200 text-gray-600 hover:text-gray-900'
                             }`}
-                            title="View Live Demo"
+                            title="Visit the website"
                           >
                             <Globe className="w-4 h-4" />
                           </a>
